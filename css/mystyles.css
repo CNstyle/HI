@@ -1,0 +1,68 @@
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+ul {
+	list-style: none;
+}
+.dh-menu {
+	width: 100%;
+	margin-top: 10px;/*	----顶部间距------*/
+}
+.dh-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.dh-menu > ul {
+	height: 33px;
+	width: 100%;
+}
+.dh-menu > ul > li {
+	float: left;
+	display: block;
+	width: 16.66%;
+}
+.dh-menu > ul > li > a {
+	font-size: 14px;
+	font-family: Tahoma, Verdana, "Microsoft Yahei", sans-serif;
+	font-weight: 700;
+	padding: 0.5em 0em;
+	color: #333000;
+	display: block;
+	text-align: center;/*-------标题-------*/
+}
+.dh-menu > ul > li > a:hover {
+	color: #fff;
+	background: #ffe000;/*鼠标经过标题文字改变背景色*/
+}
+.dh-menu > ul > li.dh-bar > a {
+	color: #fff;
+	background: #ffe000;
+}
+.dh-menu > ul > li.dh-bar > a:hover {
+	color: #fff;
+	background: #ffe000;
+}
+.dh-menu > ul > li:hover .dh-con {
+	display:block;
+	}
+.dh-menu .dh-con {
+	position: absolute;
+    display: none;
+    float: left;
+    left: 0px;
+    padding: 20px 0px;
+	background: #FFF;
+	width: 572px;
+	height: 257px;
+}
+.dh-bar > .dh-con {
+	display: block;
+	/*padding-bottom: 3em;*/
+}
+
+
+
+.dh-menu > ul,  .dh-menu > ul > li  .dh-menu > ul > li > a {
+	display: block;
+}
+
+
