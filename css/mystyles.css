@@ -65,4 +65,22 @@ ul {
 	display: block;
 }
 
-
+/*--------------内容网址栏----------------*/
+.con-font strong {
+	color: #333000;
+	font-size: 14px;
+    font-family: Tahoma, Verdana, "Microsoft Yahei", sans-serif;
+	}
+.con-font span {
+	font-size: 12px;
+    font-family: Tahoma, Verdana, "Microsoft Yahei", sans-serif;
+	font-weight: 500;
+    letter-spacing: 0em;
+    color: #233333;
+    text-decoration: none;
+    text-align: center;
+    line-height: 14px;
+}
+.con-font {
+	padding-bottom: 6px;
+	}
