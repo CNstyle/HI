@@ -174,7 +174,8 @@
 	-o-transition: .3s;
 	-webkit-transition: .3s;
 	transition: .3s;
-	cursor: pointer
+	cursor: pointer;
+	z-index:11;
 }
 #Hi_menu:after {
 	content: '';
@@ -514,4 +515,5 @@ div {
 	position: absolute;
 	top: 25px;
 	right: 35px;
+	z-index:10;
 }
